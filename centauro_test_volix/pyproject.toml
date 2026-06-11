@@ -1,0 +1,22 @@
+[project]
+name = "centauro-test-volix"
+version = "0.1.0"
+description = "Coletor de produtos da Centauro com exportação estruturada e dashboard"
+authors = [
+    {name = "Kauan Izidoro", email = "kauanhenriquedsc@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "curl-cffi (>=0.15.0,<0.16.0)",
+    "pandas (>=2.2.0,<3.0.0)",
+    "pyarrow (>=18.0.0,<21.0.0)",
+    "streamlit (>=1.41.0,<2.0.0)",
+]
+
+[project.scripts]
+centauro-scraper = "main:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
