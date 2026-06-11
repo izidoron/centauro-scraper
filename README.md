@@ -1,5 +1,11 @@
 # Centauro Scraper
 
+---
+
+![Dashboard de Preços](centauro_test_volix/src/dashboard.png)
+
+---
+
 Coletor de produtos da Centauro a partir de termos de busca, com paginação, resiliência, exportação estruturada e dashboard de preços.
 
 ## Requisitos atendidos
